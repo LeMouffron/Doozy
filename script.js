@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (user) {
             alert(`Bem-vindo, ${user.name}!`);
             localStorage.setItem('currentUser', JSON.stringify(user));
-            window.location.href = '/ToDo/todo.html'; // Redirecionar para a página principal
+            window.location.href = '/Doozy/ToDo/todo.html'; // Redirecionar para a página principal
         } else {
             alert('E-mail ou senha incorretos!');
         }
